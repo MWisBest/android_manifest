@@ -8,7 +8,7 @@
   <remote  name="mw"
            fetch="https://github.com/MWisBest/" />
 
-  <default revision="refs/tags/android-5.1.1_r5"
+  <default revision="refs/tags/android-5.1.1_r6"
            remote="aosp"
            sync-j="4"
            sync-c="true" />
