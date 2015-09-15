@@ -29,8 +29,8 @@
 
   <project path="android" name="android_manifest" remote="mw" revision="omni-5.1" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="android_art" remote="omnirom" revision="android-5.1" groups="pdk" />
-  <project path="bionic" name="android_bionic" remote="omnirom" revision="android-5.1" groups="pdk" />
+  <project path="art" name="android_art" remote="mw" revision="omni-5.1" groups="pdk" />
+  <project path="bionic" name="android_bionic" remote="mw" revision="omni-5.1" groups="pdk" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-5.1" groups="pdk-cw-fs"/>
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" />
   <project path="dalvik" name="android_dalvik" remote="omnirom" revision="android-5.1" groups="pdk-cw-fs" />
@@ -257,7 +257,7 @@
   <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" />
   <project path="external/srec" name="android_external_srec" remote="omnirom" revision="android-5.1" groups="pdk-cw-fs" />
   <project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs" />
-  <project path="external/stlport" name="platform/external/stlport" groups="pdk" />
+  <project path="external/stlport" name="android_external_stlport" remote="mw" revision="omni-5.1" groups="pdk" />
   <project path="external/strace" name="platform/external/strace" groups="pdk-cw-fs" />
   <project path="external/stressapptest" name="platform/external/stressapptest" groups="pdk-cw-fs" />
   <project path="external/svox" name="platform/external/svox" groups="pdk-cw-fs" />
@@ -280,8 +280,8 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="omnirom" revision="android-5.1" groups="pdk" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="omnirom" revision="android-5.1" groups="pdk-cw-fs" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="mw" revision="omni-5.1" groups="pdk" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="mw" revision="omni-5.1" groups="pdk-cw-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -434,7 +434,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk,tradefed" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
-  <project path="system/core" name="android_system_core" remote="omnirom" revision="android-5.1" groups="pdk" />
+  <project path="system/core" name="android_system_core" remote="mw" revision="omni-5.1" groups="pdk" />
   <project path="system/extras" name="android_system_extras" remote="omnirom" revision="android-5.1" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/media" name="android_system_media" groups="pdk" remote="omnirom" revision="android-5.1" />
