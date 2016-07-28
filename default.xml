@@ -13,7 +13,7 @@
 					sync-j="4"
 					sync-c="true" />
 
-	<project path="build" name="platform/build" groups="pdk" >
+	<project path="build" name="android_build" remote="mw" revision="aosp-6.0.x" groups="pdk" >
 		<copyfile src="core/root.mk" dest="Makefile" />
 	</project>
 
@@ -28,7 +28,7 @@
 	<project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
 	<project path="device/generic/common" name="device/generic/common" groups="pdk" />
 	<project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" />
-	<project path="device/moto/shamu" name="device/moto/shamu" groups="device,shamu,broadcom_pdk" />
+	<project path="device/moto/shamu" name="android_device_moto_shamu" remote="mw" revision="aosp-6.0.x" groups="device,shamu,broadcom_pdk" />
 	<project path="device/sample" name="device/sample" groups="pdk" />
 	<project path="external/aac" name="platform/external/aac" groups="pdk" />
 	<project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs,pdk-fs" />
@@ -292,6 +292,7 @@
 	<project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
 	<project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
 	<project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
+	<project path="kernel/moto/shamu" name="android_kernel_moto_shamu" remote="mw" revision="aosp-6.0.x" groups="kernel,shamu" />
 	<project path="libcore" name="platform/libcore" groups="pdk" />
 	<project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
 	<project path="ndk" name="platform/ndk" groups="generic_fs" />
