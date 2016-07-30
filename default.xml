@@ -381,4 +381,5 @@
 	<project path="system/netd" name="platform/system/netd" groups="pdk" />
 	<project path="system/security" name="platform/system/security" groups="pdk" />
 	<project path="system/vold" name="platform/system/vold" groups="pdk" />
+	<project path="vendor/moto" name="proprietary_vendor_moto" remote="mw" groups="vendor,moto,shamu" />
 </manifest>
