@@ -362,8 +362,7 @@
 	<project path="pdk" name="platform/pdk" groups="pdk" />
 	<project path="platform_testing" name="platform/platform_testing" />
 	<project path="prebuilts/clang/linux-x86/host/3.6" name="platform/prebuilts/clang/linux-x86/host/3.6" groups="pdk,linux" />
-	<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" />
-	<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" groups="pdk,linux,arm" />
+	<project path="prebuilts/gcc/linux-x86/arm" name="android_arm_toolchains" remote="mw" groups="pdk,linux,arm" />
 	<project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" groups="pdk,linux" />
 	<project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk" />
 	<project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" />
